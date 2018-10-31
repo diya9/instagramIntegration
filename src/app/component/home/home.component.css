@@ -1,0 +1,17 @@
+.card {
+    margin: 30px;
+}
+
+.fa-heart {
+    color: red;
+}
+
+img {
+    width: 420px;
+    height: 360px;
+    transition: all 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}

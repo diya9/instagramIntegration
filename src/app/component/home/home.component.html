@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-sm-4" *ngFor="let i of photos.data" style="width:20rem">
+        <div class="card">
+            <img src={{i.images.low_resolution.url}} class="card-img-top img-fluid">
+            <div class="card-body">
+                <h5 class="card-title text-center">{{i.caption.text}}</h5>
+                <i class="fa fa-heart fa-lg">{{i.likes.count}}</i>
+            </div>
+        </div>
+    </div>
+</div>
